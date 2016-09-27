@@ -463,11 +463,13 @@ section.portfolio {
 				border-right:5px solid rgba(180, 142, 174, 1);
 				content:" ";
 				display:block;
-				height:80%;
+				height:100%;
 				left:-10px;
 				position:absolute;
 				width:7px;
 				z-index: 10;
+				top:50%;
+				transform: translateY(-50%);
 			}
 
 		.borderRight {
@@ -481,11 +483,13 @@ section.portfolio {
 				border-right:5px solid rgba(180, 142, 174, 1);
 				content:" ";
 				display:block;
-				height:80%;
+				height:100%;
 				position:absolute;
 				right:10px;
 				width:7px;
 				z-index: 10;
+				top:50%;
+				transform: translateY(-50%);
 			}
 
 /*=====================Form================================*/
