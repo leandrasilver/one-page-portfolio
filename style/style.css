@@ -234,7 +234,7 @@ header {
 		font-family:'Montserrat', sans-serif;
 		font-size: 20px;
 		text-transform: uppercase;
-		text-shadow:20px 20px 20px rgba(112,25,153,0.5);
+		text-shadow:8px 8px 20px rgba(112,25,153,0.5);
 		letter-spacing:-1px;
 	}
 
@@ -376,6 +376,7 @@ section.skills {
 			flex: 0 1 10%;
 			margin: 10px;
 			padding:20px;
+			min-width:200px;
 			text-align: center;
 		}
 
@@ -441,7 +442,6 @@ section.portfolio {
 			align-self: center;
 			padding: 25px;
 			position: relative;
-
 		}
 
 		.portfolioItem2 .portfolioImage { 
